@@ -48,11 +48,25 @@ body {
   background-size: 500px;
   color: black;
   min-height: 630px;
-  padding-top: 160px;
+  padding-top: 140px;
 }
 
 @media (max-width: 767px) {
   .sign-in-egg {
-    background-size: 370px;
+    background-size: contain;
   }
+}
+
+@media (max-width: 320px) {
+  .sign-in .col-xs-offset-1 {
+    margin-left: 0;
+  }
+
+  .sign-in .col-xs-10 {
+    width: 100%;
+  }
+}
+
+.sign-in-egg h2 {
+  padding-bottom: 20px;
 }
