@@ -14,6 +14,19 @@
  *= require_self
  */
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 body {
-  background-color:  #71dada;
+  background-color:  #80e5ff;
+}
+
+.navbar-default {
+  background-color: #80ffe5;
+  border-color: #80ffe5;
+  padding: 10px;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
 }
