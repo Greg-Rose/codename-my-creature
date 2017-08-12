@@ -40,3 +40,19 @@ body {
 .navbar-default .navbar-nav li a {
   color: white;
 }
+
+.sign-in-egg {
+  background-image: url("/egg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  color: black;
+  min-height: 630px;
+  padding-top: 160px;
+}
+
+@media (max-width: 767px) {
+  .sign-in-egg {
+    background-size: 370px;
+  }
+}
